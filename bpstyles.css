@@ -25,18 +25,20 @@ body {
 h1 {
   color: var(--off-white);
   text-align: center;
-  padding-left: 1rem;
+  padding-left: 0rem;
+  margin-left: 12.5rem;
   
 }
 
 p {
   color: var(--coolGray400);
-  margin: 1rem 1rem;
+  margin: 1.8rem 12.5rem;
   line-height: 1.4;
   max-width: 700px;
   width: 580px;
   font-family: 'Padauk', sans-serif;
   font-size: 1.3rem;
+  text-align: left;
 }
 
 hr {
@@ -116,6 +118,7 @@ hr {
     margin-block-start: 0em;
     margin-block-end: 1em;
     font-size: 1.2rem;
+    /* text-transform: uppercase; */
 }
   
 
