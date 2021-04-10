@@ -225,7 +225,9 @@ hr {
 .section {
     padding: 4rem;
 }
-
+.hero .hero-heading {
+  margin: auto auto;
+}
 
 .section h1 {
     text-align: center;
@@ -286,4 +288,63 @@ hr {
 /** blogs **/
 .showcase-blog {
     padding-bottom: 6rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .list-non-bullet {
+  margin: 0% 27%;
+}
+.hero .hero-heading {
+    padding-left: 0rem;
+}
+h1 {
+    padding-left: 0rem;
+}
+.navigation .nav-brand .logo-img {
+  height: 90%;
+  width: 90%;
+}
+.hero-img {
+    margin-left: 0rem !important;
+}
+.hero{
+  padding-bottom: 0rem;
+}
+.container-center {
+    margin-left: 0rem !important;
+}
+.navigation {
+  padding: 0.5rem;
+}
+.navigation .nav-pills{
+  justify-content: center;
+}
+section .section{
+  display: block;
+}
+.footer {
+  position: relative;
+  height: 18vh;
+  /* padding: 0rem 0rem; */
+}
+.footer ul {
+  position: absolute;
+  text-align: end;
+  margin-left: 30%;
+  margin-top: 5%;
+  width: 59vw;   
+}
+p {
+  width: 100%;
+}
+div.container .container-center{
+  display: block;
+}
+.hero .hero-heading {
+  padding-left: 0rem !important;
+}
+section{
+  display:block !important;
+  float: none !important;
+}
 }

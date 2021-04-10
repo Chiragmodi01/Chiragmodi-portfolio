@@ -274,3 +274,42 @@ hr {
 .showcase-blog {
     padding-bottom: 6rem;
 }
+@media only screen and (max-width: 600px){
+.list-non-bullet {
+  margin: 0% 27%;
+}
+.navigation .nav-brand .logo-img {
+  height: 90%;
+  width: 90%;
+}
+.link{
+  padding: 0.5rem 1rem;
+}
+.navigation {
+  padding: 0.5rem;
+}
+.navigation .nav-pills{
+  justify-content: center;
+}
+.footer {
+  position: relative;
+  height: 18vh;
+  /* padding: 0rem 0rem; */
+}
+.footer ul {
+  position: absolute;
+  text-align: end;
+  margin-left: 30%;
+  margin-top: 5%;
+  width: 59vw;   
+}
+p {
+  width: 90%;
+}
+.hero {
+  display: block;
+}
+.hero .hero-img {
+  margin: auto auto;
+}
+}
